@@ -17,13 +17,13 @@ jobs:
   my-job2:
     runs-on: ubuntu-latest
     steps:
-        - name: my-step
-        run: echo "Hello World!"
-        - name: command1
-        run: pwd 
-        - name: command2
-        run: echo "parwez" > 1.txt
-        - name: command3
-        run: ls
-        - name: command4
-        run: cat 1.txt
+      - name: my-step2
+      run: echo "Hello World!"
+      - name: command1
+      run: pwd 
+      - name: command2
+      run: echo "parwez" > 1.txt
+      - name: command3
+      run: ls
+      - name: command4
+      run: cat 1.txt
