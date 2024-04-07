@@ -22,7 +22,7 @@ jobs:
       - name: command1
         run: pwd 
       - name: command2
-        run: echo "parwez" > 1a.txt
+        run: echo "parwez" > 1.txt
       - name: command3
         run: ls
       - name: command4
