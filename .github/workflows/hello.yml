@@ -7,4 +7,4 @@ jobs:
       - name: my-step
         run: echo "Hello World!"
       - name: list files
-        run: ls
+        run: pwd 
