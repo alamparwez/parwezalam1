@@ -22,7 +22,11 @@ jobs:
       
     - name: list1
       run: |
+        ls /
+        echo ""
+        echo "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         ls /opt
+        echo ""
         echo "PPPPPPPPPPPPPPPPPPP"
         ls /opt/hostedtoolcache
       
