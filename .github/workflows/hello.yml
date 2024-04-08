@@ -15,6 +15,10 @@ jobs:
         run: ls
       - name: command4
         run: cat 1.txt
+      - name: command5
+        run: |
+         whoami
+         who am i 
   my-job2:
     runs-on: windows-latest
     steps:
