@@ -18,7 +18,7 @@ jobs:
       - name: command5
         run: |
          whoami
-         who am i 
+         echo KKK 
   my-job2:
     runs-on: windows-latest
     steps:
