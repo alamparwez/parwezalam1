@@ -21,7 +21,7 @@ jobs:
       - name: command5
         run: |
          whoami
-         echo KKK 
+         lsb_release -a 
   my-job2:
     runs-on: windows-latest
     steps:
