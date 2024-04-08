@@ -22,6 +22,8 @@ jobs:
         run: |
          whoami
          lsb_release -a 
+         ls /home/runner/work/parwezalam/
+         ls /home/runner/work/parwezalam/parwezalam
   my-job2:
     runs-on: windows-latest
     steps:
