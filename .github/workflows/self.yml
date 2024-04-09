@@ -1,0 +1,14 @@
+name: self-hosted
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: echo "Hello World!"
+      - name: command1
+        run: pwd 
