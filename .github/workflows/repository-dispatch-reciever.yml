@@ -3,7 +3,9 @@ name: Remotely Triggered
 on:
   repository_dispatch:
     types: [ my-event ]
-
+    
+  workflow_dispatch:
+  
 jobs:
   build:
     name: run-workflow
